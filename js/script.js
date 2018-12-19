@@ -1,5 +1,5 @@
 /* global $ */
-
+var userin=
 $(document).ready(function() {
     $("button").click(function() {
         var name = $("#name").val();
@@ -12,3 +12,29 @@ $(document).ready(function() {
     });
 
 });
+ function num1(){
+  if(q1Result === "Tell a teacher"){
+        totalScore=3;
+}  else if( q1Result=== "I'm tired of this"){
+            totalScore=7;
+}  else if ( q1Result==="fight back"){
+            totalScore=5;
+}
+  else if( q1Result=== "run away"){
+            totalScore=1
+}
+}
+ return 
+ 
+  function num1(){
+  if(q2Result === "Tell a teacher"){
+        totalScore=3;
+}  else if( q2Result=== "I'm tired of this"){
+            totalScore=7;
+}  else if ( q2Result==="fight back"){
+            totalScore=5;
+}
+  else if( q2Result=== "run away"){
+            totalScore=1
+}
+}
