@@ -24,9 +24,9 @@ $(document).ready(function() {
             totalScore=1
 }
 }
- return 
+ return  totalScore = num1
  
-  function num1(){
+  function num2(){
   if(q2Result === "Tell a teacher"){
         totalScore=3;
 }  else if( q2Result=== "I'm tired of this"){
@@ -38,3 +38,4 @@ $(document).ready(function() {
             totalScore=1
 }
 }
+
